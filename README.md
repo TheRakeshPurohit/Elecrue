@@ -35,8 +35,8 @@ Elecrue is a boilerplate generator for electron. It generates boilercode for rea
 12. vue-electron-bootstrap-ts
 ```
 
-# Why does Elecrue don't use IPC?
-From my experience connecting electron to react or vue is a hard thing, So I found a much easier and reliable solution to this problem. By creating an express server in electron file we can make endpoints for our react or vue application to hit, and when the app requests those endpoints it will trigger an event. By doing that we can do all the work that we can't do in react or vue. Think of it as a function in another file, but without calling you are making a get request to the server to trigger that function.
+## IPC support is coming soon,
+So I finally learnt how to use IPC, I know that I was little stupid to not use it. But now, I have I really feel need to change the elecrue boilerplate code. Anyways, I really liked the IPC main and I think it is absolutly more secure then mine crappy solution ( hey that was past me ).
 
 ## How to install it?
 ```
